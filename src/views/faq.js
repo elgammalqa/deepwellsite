@@ -9,12 +9,12 @@ import Link from '../components/ui/link'
 const Landing = () => (
   <Page>
     <Head>
-      <title>Syncano</title>
+      <title>DeepWell Solutions</title>
     </Head>
 
     <Header
       title='FAQ'
-      subtitle='Frequently Asked Questions about Syncano'
+      subtitle='Frequently Asked Questions about DeepWell Soltions'
       />
 
     <div className='Section u-wrapper'>

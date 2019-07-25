@@ -11,13 +11,13 @@ const quotes = [
   },
   {
     avatars: ['/static/img/testimonials/stale-husby.png', '/static/img/testimonials/stale-husby@2x.png'],
-    text: 'If Syncano was around at the time we started working on our MVP, it would have saved us a full year to reach product market-fit.',
+    text: 'If DeepWell was around at the time we started working on our MVP, it would have saved us a full year to reach product market-fit.',
     author: 'Ståle Husby',
     meta: 'CEO, Relink'
   },
   {
     avatars: ['/static/img/testimonials/halvor-lande.png', '/static/img/testimonials/halvor-lande@2x.png'],
-    text: 'We chose to work with Syncano to create MVPs faster, and to increase the speed of experimentation with Fintech.',
+    text: 'We chose to work with DeepWell to create MVPs faster, and to increase the speed of experimentation with Fintech.',
     author: 'Halvor Lande',
     meta: 'CDO, DNB ASA'
   }

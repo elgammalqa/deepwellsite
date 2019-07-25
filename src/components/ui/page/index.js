@@ -9,7 +9,7 @@ import ForgotPasswordForm from '../../shared/auth/forgot-password'
 import SetPasswordForm from '../../shared/auth/set-password'
 import SignUpForm from '../../shared/auth/signup'
 import SignInForm from '../../shared/auth/signin'
-import BookMeetingForm from '../../../views/enterprise/components/book-meeting'
+import BookMeetingForm from '../../../views/aboutus/components/book-meeting'
 
 const Page = ({children, flags}) => (
   <div>
@@ -133,7 +133,7 @@ const Page = ({children, flags}) => (
       /* = HEADINGS
       * ==================================================================== */
       .u-title {
-        color: #0b0f15;
+        color: #ffff;
         font-weight: 300;
         font-size: 28px;
         line-height: 36px;

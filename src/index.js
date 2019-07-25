@@ -1,7 +1,7 @@
 import {Match, Switch} from './components/ui/router'
 
 import LandingView from './views/landing'
-import FeaturesView from './views/features'
+import FeaturesView from './views/services'
 import PricingView from './views/pricing'
 import FaqView from './views/faq'
 import SlackInviteView from './views/slack-invite'
@@ -14,12 +14,12 @@ import SocketsView from './views/sockets'
 import SignUpView from './views/signup'
 import SignInView from './views/signin'
 import MissingView from './views/missing'
-import EnterpriseView from './views/enterprise'
+import EnterpriseView from './views/aboutus'
 
 const Routes = () => (
   <Switch>
     <Match path='/' exact component={LandingView} />
-    <Match path='/features' exact component={FeaturesView} />
+    <Match path='/services' exact component={FeaturesView} />
     <Match path='/pricing' exact component={PricingView} />
     <Match path='/faq' exact component={FaqView} />
     <Match path='/sockets' component={SocketsView} />
@@ -31,7 +31,7 @@ const Routes = () => (
     <Match path='/acceptable-use-policy' exact component={AccepatbleUsePolicyView} />
     <Match path='/syncano-performance-insights' exact component={SyncanoPerformanceInsightsView} />
     <Match path='/general-terms' exact component={GeneralTermsView} />
-    <Match path='/enterprise' exact component={EnterpriseView} />
+    <Match path='/aboutus' exact component={EnterpriseView} />
     <Match component={MissingView} />
   </Switch>
 )

@@ -7,13 +7,13 @@ import SignInForm from '../components/shared/auth/signin'
 const SignIn = () => (
   <Page>
     <Head>
-      <title>Syncano</title>
+      <title>DeepWell Solutions</title>
     </Head>
 
     <div className='Header'>
       <Header
         title='Good to see you again'
-        subtitle='Continue solving unique customer problems, not building and operating backend code.'
+        subtitle='Continue solving unique customer problems, We Are Passionate About Providing Cloud, Mobile And Analytics Applications That Are Easy To Adopt, Reduce Cost, And Your Employees Will Love.'
         />
     </div>
 

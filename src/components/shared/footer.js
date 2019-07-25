@@ -12,6 +12,14 @@ const Footer = () => (
       <Hexagon width={32} fill='#b4f1d9' position={{top: '40px', right: '-5%'}} />
       <Hexagon width={32} fill='#05a5b4' position={{bottom: '-20px', right: '-8%'}} />
     </div>
+    <h3 className="Customers">Vendor expert with</h3>
+    <div className="Logos">
+      <img src="../../static/img/enterprise/microsoftpartner.png" height="64px" width="160px" />
+      <img src="../../static/img/enterprise/microsoftazure.png" height="64px" width="160px" />
+      <img src="../../static/img/enterprise/microsoftintune.png" height="64px" width="160px" />
+      <img src="../../static/img/enterprise/microsoftcsp.png" height="64px" width="160px" />
+      <img src="../../static/img/enterprise/office365.png" height="64px" width="160px" />
+    </div>
 
     <div className='Navigation'>
       <Grid wrap>
@@ -30,23 +38,22 @@ const Footer = () => (
           </Nav>
         </div>
         <div className='Navigation__column'>
-          <h5 className='Navigation__head'>Product</h5>
+          <h5 className='Navigation__head'>Solutions</h5>
           <Nav stack>
-            <Link to='/features'>
-              <span className='Navigation__link'>Features</span>
+            <Link to='/services'>
+              <span className='Navigation__link'>Services</span>
             </Link>
-            <Link to='/pricing'>
-              <span className='Navigation__link'>Plans &amp; Pricing</span>
+            <Link to='/aboutus'>
+              <span className='Navigation__link'>About US</span>
             </Link>
-            <a className='Navigation__link' href='http://status.syncano.com/'>Help &amp; Status</a>
           </Nav>
         </div>
         <div className='Navigation__column Navigation__resources'>
           <h5 className='Navigation__head'>Resources</h5>
           <Nav stack>
-            <a className='Navigation__link' href='https://docs.syncano.io/#/'>Documentation</a>
-            <a className='Navigation__link' href='https://blog.syncano.io/'>Blog</a>
-            <a className='Navigation__link' href='https://docs.syncano.io/#/client-lib-reference/installation'>Libraries</a>
+            <a className='Navigation__link' href='https://www.deepwellsolutions.com/#/'>Documentation</a>
+            <a className='Navigation__link' href='https://www.deepwellsolutions.com/#/'>Blog</a>
+            
           </Nav>
         </div>
         {/* <div className='Navigation__column'>
@@ -70,20 +77,29 @@ const Footer = () => (
         <div className='Navigation__column Navigation__column--split'>
           <h5 className='Navigation__head'>Connect</h5>
           <Nav stack>
-            <a className='Navigation__link' href='https://twitter.com/Syncano/'>Twitter</a>
-            <a className='Navigation__link' href='https://github.com/Syncano/'>Github</a>
-            <a className='Navigation__link' href='https://www.facebook.com/syncano/'>Facebook</a>
-            <a className='Navigation__link' href='https://www.linkedin.com/company/syncano/'>LinkedIn</a>
-            <a className='Navigation__link' href='https://dribbble.com/syncano'>Dribbble</a>
-            <a className='Navigation__link' href='mailto:hello@syncano.com'>Contact us</a>
+            
+            <a className='Navigation__link' href='https://www.linkedin.com/company/deepwellsolutions/'>LinkedIn</a>
+            <a className='Navigation__link' href='mailto:info@deepwellsolutions.com'>Contact us</a>
           </Nav>
         </div>
       </Grid>
     </div>
 
-    <div className='Copyrights'>&copy; 2017 by Syncano. All rights reserved.</div>
+    <div className='Copyrights'>&copy; 2019 by deepwell solutions. All rights reserved.</div>
 
     <style jsx>{`
+    .Customers {
+      height: 28px;
+      font-size: 24px;
+      text-align: center;
+      color: #3e434a;
+      font-weight: normal;
+    }
+    .Logos {
+      margin-bottom: 30px;
+      margin-top: 20px;
+    
+    }
       .Footer {
         max-width: 880px;
         margin-top: 30px;

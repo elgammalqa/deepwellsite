@@ -7,12 +7,12 @@ import SignUpForm from '../components/shared/auth/signup'
 const SignUp = () => (
   <Page>
     <Head>
-      <title>Syncano</title>
+      <title>DeepWell Solutions</title>
     </Head>
 
     <Header
       title='Sign up and get started'
-      subtitle='Build more and faster by leveraging existing backend code.'
+      subtitle='We Are Passionate About Providing Cloud, Mobile And Analytics Applications That Are Easy To Adopt, Reduce Cost, And Your Employees Will Love.'
       />
 
     <div className='Section u-wrapper'>

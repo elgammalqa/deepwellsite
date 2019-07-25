@@ -5,7 +5,7 @@ import Link from '../components/ui/link'
 const Missing = () => (
   <Page>
     <Head>
-      <title>Not Found - Syncano</title>
+      <title>Not Found - DeepWell Solutions</title>
     </Head>
 
     <div className='page'>

@@ -7,8 +7,8 @@ const SiteNav = ({isOpen, theme, toggleSignIn, closeNav}) => (
     <div className='Site-nav__inner'>
       <Nav>
         <div>
-          <Link to='/features'>
-            <span className='Site-nav__item'>Product</span>
+          <Link to='/services'>
+            <span className='Site-nav__item'>Services</span>
           </Link>
           <div className='Dropdown'>
             <Nav stack>
@@ -19,20 +19,11 @@ const SiteNav = ({isOpen, theme, toggleSignIn, closeNav}) => (
             </Nav>
           </div>
         </div>
-        <Link to='/sockets'>
-          <span className='Site-nav__item'>Sockets</span>
+        
+        <Link to='/aboutus'>
+          <span className='Site-nav__item'>About US</span>
         </Link>
-        <Link to='/pricing'>
-          <span className='Site-nav__item'>Plans &amp; Pricing</span>
-        </Link>
-        <Link to='/enterprise'>
-          <span className='Site-nav__item'>Enterprise</span>
-        </Link>
-        <a className='Site-nav__item' href='https://docs.syncano.io/'>Documentation</a>
-        <div className='Site-nav__social'>
-          <a href='https://github.com/syncano'><i className='fa fa-github' /></a>
-          <Link to='/slack-invite'><i className='fa fa-slack' /></Link>
-        </div>
+        
 
         <MatchAsGuest component={() => (
           <a className='Site-nav__item Site-nav__item--login' onClick={toggleSignIn}>

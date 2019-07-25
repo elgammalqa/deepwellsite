@@ -1,9 +1,9 @@
 import Footer from '../../components/shared/footer'
 import Header from '../../components/shared/header'
 import CTA from '../../components/shared/cta'
+import EnterpriseCTA from './sections/enterpriseCta'
 import Hexagon from '../../components/ui/hexagon'
 import {MatchAsGuest, MatchAsMember} from '../../components/ui/router'
-import CLI from '../../components/shared/cli'
 import Head from '../../components/ui/head'
 import Button from '../../components/ui/button'
 import Page from '../../components/ui/page'
@@ -11,54 +11,32 @@ import Features from './sections/features'
 import Innovation from './sections/innovation'
 import Sockets from './sections/sockets'
 import FAQ from './sections/faq'
+import Intune from './sections/features/intune.svg'
+
 
 const Landing = ({
   toggleSignUpModal
 }) => (
   <Page>
     <Head>
-      <title>Syncano - Accelerated Software Development</title>
-      <meta name="Description" content="Don’t rebuild what has already been built. Syncano has hundreds of ready to use functions for your backend. Set up a scalable app in the cloud in just 45 seconds."></meta>
+      <title>DeepWell - Cloud consultant</title>
+      <meta name="Description" content="As a leading strategic partner, we offer professional and individual coaching in the technological development of your business infrastructures."></meta>
     </Head>
-
     <Header theme='dark'>
       <div className='CTA'>
-        <h1 className='Title'>Syncano means accelerated software development</h1>
-        <h2 className='Subtitle'>Set up your first scalable app in the cloud in just 45 seconds</h2>
-
-        <MatchAsGuest component={() => (
-          <Button primary onClick={toggleSignUpModal}>Sign up now</Button>
-        )} />
-
+<h1 className='Title'>Delivering enterprise grade solutions in the cloud.</h1>
+        <h2 className='Subtitle'>Delivering enterprise grade solutions in the cloud.</h2>
+<div>
+        <EnterpriseCTA /> </div>
         <MatchAsMember component={() => (
           <Button primary onClick={() => {
             window.location.href = process.env.DASHBOARD_URL
           }}>Go to dashboard</Button>
         )} />
+<h1>Microsoft Intune Consulting</h1>
 
-        <div className='Separator' data-after='or' />
-
-        <p>
-          Ready to build? <a href='https://docs.syncano.io/#/cli-reference/installation'>Download the CLI</a>, <br /> the rest you can do from there.
-        </p>
-
-        <div className='CLI'>
-          <div className='CLI__inner'>
-            <CLI />
-            <div className='HiddenAtSm'>
-              <Hexagon width={32} fill='#7C51CD' position={{top: '-13px', right: '60px'}} />
-              <Hexagon width={54} fill='#197eee' position={{top: '25%', right: '-27px'}} />
-              <Hexagon width={64} fill='#05b470' position={{bottom: '-18px', right: '35px'}} />
-              <Hexagon width={32} fill='#60e0ae' position={{bottom: '-22px', right: '-17px'}} />
-              <Hexagon width={64} fill='#60e0ae' position={{bottom: '-40px', left: '10%'}} />
-              <Hexagon width={42} fill='#05a5b4' position={{bottom: '10%', left: '-21px'}} />
-            </div>
-            <div className='HiddenAtMd'>
-              <Hexagon width={22} fill='#3cdd9e' position={{bottom: '-45px', left: '22%'}} />
-              <Hexagon width={40} fill='#60e0ae' position={{bottom: '-70px', right: '30%'}} />
-            </div>
-          </div>
-        </div>
+    
+    <Intune />
       </div>
     </Header>
 
@@ -66,13 +44,16 @@ const Landing = ({
     <Features />
     <Sockets toggleSignUpModal={toggleSignUpModal} />
     <FAQ />
-    <CTA />
+    <EnterpriseCTA />
     <Footer />
 
     <style jsx>{`
       /* = CTA
        * ==================================================================== */
-      .CTA {
+   .Intune {
+     width: 400px;
+   }
+       .CTA {
         text-align: center;
         margin-top: 30px;
       }
@@ -164,6 +145,13 @@ const Landing = ({
       @media screen and (min-width: 560px) {
         .CLI :global(>) :global(*) {
           margin-bottom: -80px;
+        }
+      }
+      @media screen and (min-width: 560px) {
+        .Intune {
+          width: 100%;
+          max-width: 400px;
+          height: auto;
         }
       }
 

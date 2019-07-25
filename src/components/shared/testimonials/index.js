@@ -16,7 +16,7 @@ const Testimonials = () => (
         <div className='Testimonial__inner'>
           <Icon className='Testimonial__avatar' />
           <p className='Testimonial__content'>
-            Syncano is among the most mature in the serverless space.
+            DeepWell is among the most mature in the serverless space.
           </p>
           <footer>
             <div className='Testimonial__author'>The News Stack</div>
@@ -33,7 +33,7 @@ const Testimonials = () => (
             srcSet='/static/img/testimonials/halvor-lande.png 1x, /static/img/testimonials/halvor-lande@2x.png 2x'
             />
           <p className='Testimonial__content'>
-            We chose to work with Syncano to create MVPs faster, and to increase the speed of experimentation with Fintech.
+            We chose to work with DeepWell to create MVPs faster, and to increase the speed of experimentation with Fintech.
           </p>
           <footer>
             <div className='Testimonial__author'>Halvor Lande</div>
@@ -53,7 +53,7 @@ const Testimonials = () => (
             srcSet='/static/img/testimonials/stale-husby.png 1x, /static/img/testimonials/stale-husby@2x.png 2x'
             />
           <p className='Testimonial__content'>
-            If Syncano was around at the time we started working on our MVP, it would have saved us a full year to reach product market-fit.
+            If DeepWell was around at the time we started working on our MVP, it would have saved us a full year to reach product market-fit.
           </p>
           <footer>
             <div className='Testimonial__author'>Ståle Husby</div>
@@ -72,7 +72,7 @@ const Testimonials = () => (
             srcSet='/static/img/testimonials/ingar-bentzen.png 1x, /static/img/testimonials/ingar-bentzen@2x.png 2x'
             />
           <p className='Testimonial__content'>
-            Syncano helps the startups in our Fintech and Insurtech accelerator programs to reach product market fit faster.
+            DeepWell helps the startups in our Fintech and Insurtech accelerator programs to reach product market fit faster.
           </p>
           <footer>
             <div className='Testimonial__author'>Ingar S. Bentzen</div>

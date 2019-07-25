@@ -3,16 +3,17 @@ import Hexagon from '../../../../components/ui/hexagon'
 import Button from '../../../../components/ui/button'
 import {MatchAsGuest} from '../../../../components/ui/router'
 import Link from '../../../../components/ui/link'
-import IconFacebook from './icon-fb.svg'
-import IconDB from './icon-db.svg'
-import IconGoogleAnalytics from './icon-google-analytics.svg'
-import IconTwitter from './icon-twitter.svg'
-import IconSlack from './icon-slack.svg'
-import IconParse from './icon-parse.svg'
-import IconStripe from './icon-stripe.svg'
-import IconFirebase from './icon-firebase.svg'
-import IconSegment from './icon-segment.svg'
-import IconSentry from './icon-sentry.svg'
+import Office365 from './office-365.svg'
+import Intune from './intune.svg'
+import OneDrive from './OneDrive.svg'
+import SharePoint from './SharePoint.svg'
+import Teams from './Teams.svg'
+import Skype from './Skype.svg'
+import AzureDevOps from './AzureDevOps.svg'
+import Security from './Security.svg'
+import Help from './Help.svg'
+import BlobStorage from './BlobStorage.svg'
+
 import Hexagons from './hexagons.svg'
 
 const Sockets = ({
@@ -21,74 +22,66 @@ const Sockets = ({
   <div className='Section'>
     <div className='Section__content u-wrapper u-ta-c'>
       <div className='Project'>
-        <h2 className='Project__headline'>Assemble your backend from Syncano Sockets to build your</h2>
+        <h2 className='Project__headline'>Let us help you transform your business</h2>
         <p className='Project__title'>
           <ReactRotatingText
             items={[
-              ' fintech innovation solution',
-              ' messenger bot',
-              ' mobile backend',
-              ' custom CMS',
-              ' analytics integration',
-              ' IoT backend',
-              ' payment gateway',
-              ' web hosting solution',
+              ' Azure Security',
+              ' Help & Support',
+              ' Azure DevOps',
+              ' Microsoft Intune',
+              ' Microsoft Azure',
+              ' Microsoft Office 365',
+              ' Microsoft Teams',
+              ' OneDrive for bussiness',
               '... basically, whatever...'
             ]} />
         </p>
       </div>
 
       <div className='Socket-list'>
-        <a className='Socket' title='DB'>
-          <div className='Socket__icon'><IconDB /></div>
+        <a className='Socket' title='Security'>
+          <div className='Socket__icon'><Security /></div>
           <Hexagon width={130} style={{fill: '#05b470', stroke: 'none'}} />
         </a>
-        <a className='Socket' title='BAR'>
-          <div className='Socket__icon'><IconGoogleAnalytics /></div>
+        <a className='Socket' title='Help'>
+          <div className='Socket__icon'><Help /></div>
           <Hexagon width={130} style={{fill: '#f69819', stroke: 'none'}} />
         </a>
-        <a className='Socket' title='Twitter'>
-          <div className='Socket__icon'><IconTwitter /></div>
+        <a className='Socket' title='AzureDevOps'>
+          <div className='Socket__icon'><AzureDevOps /></div>
           <Hexagon width={130} style={{fill: '#1da1f2', stroke: 'none'}} />
         </a>
-        <a className='Socket' title='Slack'>
-          <div className='Socket__icon'><IconSlack /></div>
+        <a className='Socket' title='BlobStorage'>
+          <div className='Socket__icon'><BlobStorage /></div>
           <Hexagon width={130} style={{fill: '#6ecadc', stroke: 'none'}} />
         </a>
-        <a className='Socket' title='Parse'>
-          <div className='Socket__icon'><IconParse /></div>
+        <a className='Socket' title='Teams'>
+          <div className='Socket__icon'><Teams /></div>
           <Hexagon width={130} style={{fill: '#1199ed', stroke: 'none'}} />
         </a>
-        <a className='Socket' title='Facebook'>
-          <div className='Socket__icon'><IconFacebook /></div>
+        <a className='Socket' title='Office 365'>
+          <div className='Socket__icon'><Office365 /></div>
           <Hexagon width={130} style={{fill: '#3B5998', stroke: 'none'}} />
         </a>
-        <a className='Socket' title='Stripe'>
-          <div className='Socket__icon'><IconStripe /></div>
+        <a className='Socket' title='Intune'>
+          <div className='Socket__icon'><Intune /></div>
           <Hexagon width={130} style={{fill: '#00afe1', stroke: 'none'}} />
         </a>
-        <a className='Socket' title='Sentry'>
-          <div className='Socket__icon'><IconSentry /></div>
+        <a className='Socket' title='SharePoint'>
+          <div className='Socket__icon'><SharePoint /></div>
           <Hexagon width={130} style={{fill: '#6c5bca', stroke: 'none'}} />
         </a>
-        <a className='Socket' title='Firebase'>
-          <div className='Socket__icon'><IconFirebase /></div>
+        <a className='Socket' title='Skype'>
+          <div className='Socket__icon'><Skype /></div>
           <Hexagon width={130} style={{fill: '#ffa801', stroke: 'none'}} />
         </a>
-        <a className='Socket' title='Segment'>
-          <div className='Socket__icon'><IconSegment /></div>
+        <a className='Socket' title='OneDrive'>
+          <div className='Socket__icon'><OneDrive /></div>
           <Hexagon width={130} style={{fill: '#3bb075', stroke: 'none'}} />
         </a>
-        <a className='Socket Socket--empty' href='https://docs.syncano.io/#/building-sockets/basics' title='Build your socket'>
-          <i className='Socket__icon fa fa-plus' />
-          <Hexagon width={130} style={{
-            fill: '#111',
-            strokeWidth: '2',
-            stroke: '#fff',
-            strokeDasharray: '5,5',
-            strokeOpacity: '.5'
-          }} />
-        </a>
+         
+        
         <div className='Hexagons'>
           <Hexagons />
         </div>
@@ -109,15 +102,12 @@ const Sockets = ({
     </div>
 
     <div className='CTA u-wrapper'>
-      <h3 className='u-title'>More than 60,000 developers use Syncano NoOps</h3>
+      <h3 className='u-title'>Keeping Canadian Businesses on the Cutting Edge of Digital Transformation</h3>
       <p className='CTA__subtitle u-subtitle'>
-        to accelerate and automate their software development process. <br />
-        Together, let’s enable the autonomous developer.
+       
       </p>
 
-      <MatchAsGuest component={() => (
-        <Button primary onClick={toggleSignUpModal}>Get started for free</Button>
-      )} />
+      
     </div>
 
     <style jsx>{`

@@ -14,34 +14,40 @@ const FAQ = () => (
     <div className='Section__content u-wrapper'>
       <div className='FAQ-list'>
         <div className='FAQ'>
-          <h4 className='FAQ__title'>How is Syncano different from other cloud backend products?</h4>
-          <p>Syncano has been created with developers in mind; built for engineers by engineers. During the development of the latest version, we carefully listened to the feedback and learned our lessons. The outcome is a tool that seamlessly integrates with your workflow and takes it to the next level. With Syncano, working with the backend feels like http://locallhost.</p>
+          <h4 className='FAQ__title'>How is Office 365?</h4>
+          <p>Office 365 is an integrated experience of apps and services, designed to help you pursue your passion and grow your business. Get apps like Word, Excel, PowerPoint, and more, updated monthly with the latest features and security updates.
+
+Use cloud-powered email to reach customers and coworkers wherever work takes you.
+
+Collaborate in Microsoft Teams, the new hub for teamwork where you can chat, organize meetings, and share files.
+
+Save files to OneDrive with one terabyte of online storage, allowing access across devices and on the go.
+
+Run your business with the Business Apps, empowering you to manage customer scheduling, invoicing, referrals, and more, all from one place.</p>
         </div>
         <div className='FAQ'>
-          <h4 className='FAQ__title'>How does your pricing model work?</h4>
-          <p>Operations on Syncano are based on the number of API calls and the time it takes to execute the backend script code inside of the sockets you use. We have monthly pricing plans that include a fixed amount of API calls and script execution time. The basic plan of USD 25 includes 1 million API calls and 270k script seconds, which should usually cover around 1000 daily users making several requests through your frontend.</p>
+          <h4 className='FAQ__title'>What is Azure?</h4>
+          <p>Microsoft Azure is an ever-expanding set of cloud services to help your organization meet your business challenges. It’s the freedom to build, manage, and deploy applications on a massive, global network using your favorite tools and frameworks.</p>
         </div>
         <div className='FAQ'>
-          <h4 className='FAQ__title'>What happens if I exceed my usage?</h4>
-          <p>Your application will continue to work without any interruptions, regardless of the usage of the backend. If you exceed your usage, overage fees will appear as a separate bill at the end of the month, which is our billing period. You can change your plan at any time and set limits to notify you in the event of getting close to exceeding your current plan.</p>
+          <h4 className='FAQ__title'>What is Microsoft Intune?</h4>
+          <p>Microsoft Intune is a cloud-based service in the enterprise mobility management (EMM) space that helps enable your workforce to be productive while keeping your corporate data protected. Similar to other Azure services, Microsoft Intune is available in the Azure portal.</p>
         </div>
         <div className='FAQ'>
-          <h4 className='FAQ__title'>What will happen if my app gets popular and attracts millions of users?</h4>
-          <p>Will be as excited as you! You don’t need to worry about scaling issues, as our infrastructure will scale along with the load of your users. We have a proven track record of handling millions of API requests daily.</p>
+          <h4 className='FAQ__title'>What is managed IT services?</h4>
+          <p>In a managed service arrangement, the managed service provider retains responsibility for the functionality of the IT service and equipment, and the customer typically pays a monthly fee for receipt of the service. There are many different types of managed IT service offerings, but the idea behind all of them is to transfer the burden of maintaining IT from the customer to a service provider. In an effective managed services relationship, a customer benefits from predictable pricing and the ability to focus on core business concerns rather than IT management chores.</p>
         </div>
         <div className='FAQ'>
-          <h4 className='FAQ__title'>Where are the libraries for iOS and Android?</h4>
-          <p>Syncano is currently in beta and we provide a client library for JavaScript. We are also working on the iOS, Android and Unity libraries and they will be released very soon. <Link to='/slack-invite'>Ask us on Slack</Link> to get the ETAs.</p>
+          <h4 className='FAQ__title'>Where is Office 365 Plan Options?</h4>
+          <p>Microsoft Office 365 is available in a variety of plans to best meet the needs of your organization.Office 365 Business Essentials , Office 365 Enterprise E1,E3,E5 etc.</p>
         </div>
         <div className='FAQ'>
           <h4 className='FAQ__title'>How can I get support?</h4>
-          <p>You can join our <Link to='/slack-invite'>Slack channel</Link> for community support, talk to us via the messenger in the <a href={process.env.DASHBOARD_URL}>Dashboard</a> after you log in, or simply <a href='mailto:hello@syncano.io'>send us an email</a>. You can also browse through our <a href='https://docs.syncano.io/#/'>documentation</a>.</p>
+          <p>You can talk to us simply <a href='mailto:info@deepwellsolutions.com'>send us an email</a>. You can also browse through Book a meeting fourm.</p>
         </div>
       </div>
 
-      <div className='CTA'>
-        <a href='https://docs.syncano.io/#/'>Read the docs</a>, <a href='mailto:hello@syncano.com'>ask your own question</a> or join our <Link to='/slack-invite'>Slack channel</Link> to get instant answers.
-      </div>
+      
     </div>
 
     <style jsx>{`

@@ -13,10 +13,10 @@ const Innovation = () => (
     <div className='Heading u-wrapper'>
       <Grid wrap>
         <div className='Heading__item Heading__item--important'>
-          <b>Syncano</b> is a development platform for building more, faster by leveraging existing backend code. Developers can finally spend their time solving app specific challenges.
+          <b>DeepWell Solutions</b> Make business easy. Make business successful.
         </div>
         <div className='Heading__item'>
-          Technology transforms the unthinkable into reality. The Pacemaker saves millions from the grief of loss. There’s still abundant untapped opportunity to change the world through the apps you build.
+          Together with your Windows operating system and the power of cloud computing, Microsoft Intune from A & E Technologies allows you to simplify IT management for maximum technology performance in the office and on the go.<br />
         </div>
       </Grid>
     </div>

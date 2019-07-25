@@ -11,9 +11,10 @@ const Features = () => (
     <Hexagon width={32} fill='#05A5B4' position={{top: '20px', right: '-20px'}} />
 
     <div className='Section__header u-ta-c'>
-      <h2 className='u-title'>At Syncano, we want to help you build technology that matters, faster</h2>
-      <p className='u-subtitle'>
-        Syncano’s Serverless Platform and SDKs automatically assemble and deploy your backend to the cloud instantaneously - all while you build your app.
+      <h2 className='u-title'>Improving Productivity with Innovative Solutions</h2>
+      <p className='u-subtitle'> DeepWell helps organizations be their best by providing technology solutions and services that make them more productive. We specialize in Microsoft enterprise technology platforms, leveraging a combination of cloud, on-premises, and hybrid configurations to increase productivity from the data center on out to end business users. Areas of specialty include end-to-end Azure and Office 365 services, Microsoft Enterprise Infrastructure and Managed IT Services.
+
+
       </p>
     </div>
 
@@ -21,11 +22,15 @@ const Features = () => (
       <Grid wrap>
         <div className='Heading'>
           <p className='Heading__item Heading__item--important'>
-            Use Syncano to experiment and test your product with real users on a live production platform until you achieve product/market fit. Get results faster than with any other solution. Adapt, tweak and deploy at blazing speed.
+          
+          We provide the following range of customized services:
+
+
           </p>
           <p className='Heading__item'>
-            Take the risk and friction out of application development.
-            As you grow, Syncano grows with you - Syncano’s infrastructure will automatically scale to support your needs.
+          Improve the management of your technology systems while cutting back on IT costs by offloading the burden of your tech support and IT strategy to Softlanding.
+
+Softlanding helps organizations be their best by providing technology solutions and services that make them more productive. Softlanding specializes in Microsoft enterprise technology platforms, leveraging our deep-set knowledge to service organizations from 50-person local businesses to the global Fortune 500. Our team of consultants are focused, well-trained and passionate about delivering results whether in the cloud or on-premises.
           </p>
         </div>
         <div className='Feature-list'>
@@ -38,9 +43,9 @@ const Features = () => (
                 <div className='Feature__icon'>
                   <SocketRegistryIcon />
                 </div>
-                <h4 className='Feature__title'>Syncano Registry</h4>
+                <h4 className='Feature__title'>Managed IT Services</h4>
                 <p>
-                  Don’t rebuild what has already been built. The registry is your toolbox of reusable backend code.
+                Our Managed IT Services take care of your technology for you, so you can reduce IT costs, boost efficiency and free up resources.
                 </p>
               </div>
             </Link>
@@ -54,9 +59,9 @@ const Features = () => (
                 <div className='Feature__icon'>
                   <AutomationSDKIcon />
                 </div>
-                <h4 className='Feature__title'>Syncano Automation SDK</h4>
+                <h4 className='Feature__title'>Cloud Migration and Upgrades</h4>
                 <p>
-                  Operate your backend directly from your local development environment. No, weird GUIs, no hassle, more efficiency!
+                Our business analysts, cloud architects and delivery consultants will ensure that your migration experience is smooth and that staff experience minimal or no disruption. We offer the following types of migration services:
                 </p>
               </div>
             </Link>
@@ -70,9 +75,10 @@ const Features = () => (
                 <div className='Feature__icon'>
                   <CommunityIcon />
                 </div>
-                <h4 className='Feature__title'>Syncano Community</h4>
+                <h4 className='Feature__title'>Professional Consulting</h4>
                 <p>
-                  Crowd + Cloud. Harness the power of our community, and give yourself more creative freedom. Share, build, collaborate.
+                Ensure your technology drives your business forward with IT Consulting Services that give you a competitive edge.
+
                 </p>
               </div>
             </Link>
@@ -86,9 +92,11 @@ const Features = () => (
                 <div className='Feature__icon'>
                   <CloudOSIcon />
                 </div>
-                <h4 className='Feature__title'>Syncano Cloud OS</h4>
+                <h4 className='Feature__title'>Cloud Hosting & Security</h4>
                 <p>
-                  Throw any Socket from the Registry into the Syncano Cloud OS, and its functionality becomes immediately available.
+                Boost your computing power, improve your operational efficiency, and enjoy unrivaled security with our Secure Cloud Hosting solutions.
+
+
                 </p>
               </div>
             </Link>
@@ -108,7 +116,7 @@ const Features = () => (
         z-index: 1;
       }
 
-      .u-title {
+      Services {
         max-width: 800px;
         margin-left: auto;
         margin-right: auto;
