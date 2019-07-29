@@ -204,6 +204,6 @@ Page.init = ({
   }), 100)
 
   return {children, flags}
-}
+  }
 
-export default connect(Page)
+  export default connect(Page)
