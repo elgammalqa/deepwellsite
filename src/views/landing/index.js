@@ -1,7 +1,6 @@
 import Footer from '../../components/shared/footer'
 import Header from '../../components/shared/header'
 import EnterpriseCTA from './sections/enterpriseCta'
-import {MatchAsGuest, MatchAsMember} from '../../components/ui/router'
 import Head from '../../components/ui/head'
 import Button from '../../components/ui/button'
 import Page from '../../components/ui/page'
