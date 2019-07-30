@@ -1,8 +1,8 @@
 {
-  "name": "deepwellsolutions.com",
+  "name": "amirdemo2.ml",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://elgammalqa.github.io/pages/",
+  "homepage": "http://amirdemo2.ml",
   "scripts": {
     "dev": "zefir",
     "build": "zefir build",
