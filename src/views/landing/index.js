@@ -2,7 +2,6 @@ import Footer from '../../components/shared/footer'
 import Header from '../../components/shared/header'
 import EnterpriseCTA from './sections/enterpriseCta'
 import Head from '../../components/ui/head'
-import Button from '../../components/ui/button'
 import Page from '../../components/ui/page'
 import Features from './sections/features'
 import Innovation from './sections/innovation'
@@ -25,11 +24,7 @@ const Landing = ({
         <h2 className='Subtitle'>Delivering enterprise grade solutions in the cloud.</h2>
 <div>
         <EnterpriseCTA /> </div>
-        <MatchAsMember component={() => (
-          <Button primary onClick={() => {
-            window.location.href = process.env.DASHBOARD_URL
-          }}>Go to dashboard</Button>
-        )} />
+        
 <h1>Microsoft Intune Consulting</h1>
 
     

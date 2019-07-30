@@ -2,10 +2,13 @@
   "name": "deepwellsolutions.com",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://elgammalqa.github.io/pages/",
   "scripts": {
     "dev": "zefir",
     "build": "zefir build",
-    "start": "zefir start"
+    "start": "zefir start",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d .zefir"
   },
   "dependencies": {
     "axios": "0.16.1",

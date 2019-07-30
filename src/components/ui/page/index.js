@@ -1,6 +1,5 @@
 import {connect} from 'zefir/utils'
 import {action} from 'mobx'
-// import DevTools from 'mobx-react-devtools'
 import FontAwesome from './styles/font-awesome'
 import Normalize from './styles/normalize'
 import Modal from '../modal'

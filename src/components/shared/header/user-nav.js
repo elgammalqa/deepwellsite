@@ -1,24 +1,14 @@
 import Nav from '../../ui/nav'
-import {MatchAsGuest, MatchAsMember} from '../../ui/router'
 
 const UserNav = ({theme, toggleSignUp, toggleSignIn, pageStatus}) => (
   <div className={`User-nav t-${theme}`}>
-    <MatchAsGuest component={() => (
       <Nav>
         
         <a className='User-nav__item' onClick={toggleSignIn}>Sign in</a>
         <a className='User-nav__item' onClick={toggleSignUp}>Sign up</a>
       </Nav>
-    )} />
 
-    <MatchAsMember component={() => (
-      <Nav>
-        {pageStatus.indicator && (
-          <a className={`User-nav__item User-nav__item--status User-nav__item--status-${pageStatus.indicator}`} href='http://status.syncano.com/'>{pageStatus.description}</a>
-        )}
-        <a className='User-nav__item' href={process.env.DASHBOARD_URL}>Go to dashboard</a>
-      </Nav>
-    )} />
+    
 
     <style jsx>{`
       .User-nav :global(li + li) {

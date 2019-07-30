@@ -1,6 +1,5 @@
 import Nav from '../../ui/nav'
 import Link from '../../ui/link'
-import {MatchAsMember, MatchAsGuest} from '../../ui/router'
 
 const SiteNav = ({isOpen, theme, toggleSignIn, closeNav}) => (
   <div className={`Site-nav t-${theme} ${isOpen ? 'is-open' : null}`} onClick={closeNav}>
@@ -25,15 +24,8 @@ const SiteNav = ({isOpen, theme, toggleSignIn, closeNav}) => (
         </Link>
         
 
-        <MatchAsGuest component={() => (
-          <a className='Site-nav__item Site-nav__item--login' onClick={toggleSignIn}>
-            Sign in<i className='fa fa-arrow-right' />
-          </a>
-        )} />
-
-        <MatchAsMember component={() => (
-          <a className='Site-nav__item Site-nav__item--login' href={process.env.DASHBOARD_URL}>Go to dashboard</a>
-        )} />
+        
+    
       </Nav>
     </div>
 
