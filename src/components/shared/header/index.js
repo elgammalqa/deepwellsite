@@ -201,11 +201,9 @@ Header.init = ({
     flags,
     pageStatus,
     toggleSignUp: e => {
-      window.analytics.track('Sign up Website')
       toggleModal('signup')
     },
     toggleSignIn: () => {
-      window.analytics.track('Sign in Website')
       toggleModal('signin')
     },
     toggleNav: () => toggleFlag('site-nav.open'),

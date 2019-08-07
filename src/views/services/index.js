@@ -150,7 +150,6 @@ Features.init = ({
   setActiveSection,
   scrollToTop: () => window.scroll(0, 0),
   toggleSignUpModal: () => {
-    window.analytics.track('Sign up Website')
 
     toggleModal('signup')
   }

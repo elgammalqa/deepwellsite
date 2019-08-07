@@ -13,7 +13,7 @@ const CommunitySection = () => (
     <div className='Section__header u-wrapper u-ta-c'>
       <h2 className='u-title'>Managed IT Services</h2>
       <p>Manage IT provides clients with 24/7/365 IT management service, which includes monitoring, support/troubleshooting, maintenance, reporting and asset management of their IT infrastructure (servers, storage, networking, applications, desktop/laptops). It can be delivered remotely, with onsite augmentation when required, and can be used for clients’ infrastructure that reside on-premise or within various cloud systems. </p>
-      <div className='Section__definition'>Syncano = Cloud + Crowd!</div>
+      <div className='Section__definition'>deepwelsolutions = Cloud + Crowd!</div>
     </div>
 
     <div className='Section__content u-wrapper'>
