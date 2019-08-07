@@ -1,6 +1,6 @@
 import Footer from '../components/shared/footer'
 import Header from '../components/shared/header'
-import Head from '../components/ui/head'
+import Head from 'zefir/head'
 import Page from '../components/ui/page'
 import SignInForm from '../components/shared/auth/signin'
 

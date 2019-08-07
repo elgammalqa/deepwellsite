@@ -1,5 +1,5 @@
 import Nav from '../../ui/nav'
-import Link from '../../ui/link'
+import Link  from '../../ui/link'
 
 const SiteNav = ({isOpen, theme, toggleSignIn, closeNav}) => (
   <div className={`Site-nav t-${theme} ${isOpen ? 'is-open' : null}`} onClick={closeNav}>

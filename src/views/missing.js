@@ -1,4 +1,4 @@
-import Head from '../components/ui/head'
+import Head from 'zefir/head'
 import Page from '../components/ui/page'
 import Link from '../components/ui/link'
 

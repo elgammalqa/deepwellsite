@@ -1,5 +1,5 @@
 import {Match} from '../../components/ui/router'
-import Head from '../../components/ui/head'
+import Head from 'zefir/head'
 import Page from '../../components/ui/page'
 import Footer from '../../components/shared/footer'
 import Header from '../../components/shared/header'

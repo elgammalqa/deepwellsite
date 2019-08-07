@@ -6,7 +6,7 @@ import Footer from '../../components/shared/footer'
 import Header from '../../components/shared/header'
 import EnterpriseCTA from './enterpriseCta'
 
-import Head from '../../components/ui/head'
+import Head from 'zefir/head'
 import Page from '../../components/ui/page'
 import Button from '../../components/ui/button'
 
