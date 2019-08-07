@@ -76,7 +76,7 @@ SignUpForm.init = ({
   ui,
   register: (e) => submit(e, data => {
     if (email.value !== '' && password.value !== '') {
-      window.analytics.track('Sign up Website Confirmed')
+     
     }
     register(data)
   })

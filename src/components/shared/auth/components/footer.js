@@ -9,7 +9,6 @@ const Footer = ({toggleModal, smallSpacing}) => (
 
     <div>
       Already a member? <a onClick={() => {
-        window.analytics.track('Sign in Website')
         toggleModal('signin')
       }}>Sign in here</a>
     </div>

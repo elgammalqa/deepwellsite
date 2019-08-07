@@ -30,7 +30,6 @@ const SignInForm = ({
       <div>
         <p>
           Don't have an account yet? <a onClick={() => {
-            window.analytics.track('Sign up Website')
             toggleModal('signup')
           }}>Sign up here</a> or <a onClick={() => toggleModal('forgot-password')}>reset password</a>
         </p>
@@ -54,7 +53,6 @@ SignInForm.init = ({
   toggleModal,
   messages,
   login: (e) => submit(e, data => {
-    window.analytics.track('Sign in Website Confirmed')
     login(data)
   })
 })
