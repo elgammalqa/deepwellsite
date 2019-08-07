@@ -1,12 +1,17 @@
 import {connect} from 'zefir/utils'
 import {action} from 'mobx'
+// import DevTools from 'mobx-react-devtools'
 import FontAwesome from './styles/font-awesome'
 import Normalize from './styles/normalize'
 import Modal from '../modal'
 import ScrollManager from '../../ui/scroll-manager'
-import BookMeetingForm from '../../../views/aboutus/components/book-meeting'
+import ForgotPasswordForm from '../../shared/auth/forgot-password'
+import SetPasswordForm from '../../shared/auth/set-password'
+import SignUpForm from '../../shared/auth/signup'
+import SignInForm from '../../shared/auth/signin'
+import BookMeetingForm from '../../../views/enterprise/components/book-meeting'
 
-const Page = ({children}) => (
+const Page = ({children, flags}) => (
   <div>
     {children}
     { /* <DevTools /> */ }
@@ -14,7 +19,63 @@ const Page = ({children}) => (
     <FontAwesome />
     <Normalize />
 
-    
+    {{
+      'auth-version-1': (
+        <div key={1}>
+          <Modal
+
+            name='signup'
+            size='small'
+            title='Sign up and get started'
+            subtitle='Build more and faster by leveraging existing backend code.'>
+            <SignUpForm  />
+          </Modal>
+        </div>
+      ),
+      'auth-version-2': (
+        <div key={2}>
+          <Modal  name='signup' hideClose>
+            <SignUpForm withQuotes />
+          </Modal>
+        </div>
+      ),
+      'auth-version-3': (
+        <div key={3}>
+          <Modal
+            name='signup'
+            title='Sign up and start building'
+            subtitle='Build serverless apps on Syncano for free. Set up your backend in minutes!'>
+            <SignUpForm withSocialButtons />
+          </Modal>
+        </div>
+      ),
+    }[flags.get('page.auth-modal')]}
+
+    <Modal
+      name='set-password'
+      title='Set up your password'
+      subtitle='You’re almost there!'
+      size='small'
+      >
+      <SetPasswordForm />
+    </Modal>
+    <Modal
+      name='forgot-password'
+      title='Forgot password'
+      subtitle='Lost your password? No problem.'
+      size='small'
+      >
+      <ForgotPasswordForm />
+    </Modal>
+
+    <Modal
+      name='signin'
+      title='Good to see you again'
+      subtitle='Continue solving unique customer problems, not building and operating backend code.'
+      >
+      <SignInForm />
+    </Modal>
+
     <Modal
       name='book-meeting'
       title='Book a meeting'
@@ -72,7 +133,7 @@ const Page = ({children}) => (
       /* = HEADINGS
       * ==================================================================== */
       .u-title {
-        color: #ffff;
+        color: #0b0f15;
         font-weight: 300;
         font-size: 28px;
         line-height: 36px;
@@ -143,6 +204,6 @@ Page.init = ({
   }), 100)
 
   return {children, flags}
-  }
+}
 
-  export default connect(Page)
+export default connect(Page)
