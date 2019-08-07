@@ -53,23 +53,8 @@ const CommunitySection = () => (
           <p>Dedicated Remote Workplace</p>
           </div>
         </div>
-        <div className='Feature'>
-          <h4 className='Feature__title'>Join our Cloud OS Project</h4>
-          <p>Our powerful Cloud OS software is infrastructure agnostic! This means you can run it on any cloud computing provider, or even on bare metal! The Cloud OS is not currently open sourced, but we have plans to do so in our roadmap. <a onClick={() => startIntercom('')}>Sign up here</a> to get in touch with us. We'd be delighted to share our plans, progress, and learn how you can help contribute!</p>
-        </div>
-        <div className='Feature'>
-          <h4 className='Feature__title'>Socket Marketplace to expand Syncano faster (coming soon)</h4>
-          <p>We are currently working on making it even easier for you to get the backend functions you need for your projects. If the functionality you need is not already available in the Public Socket Registry, you can use the Syncano Marketplace to specify the Syncano Socket you need, and get help from other users to build it.</p>
-        </div>
-        <div className='Feature'>
-          <h4 className='Feature__title'>Join our ReactJS Dashboard Project</h4>
-          <p>The Syncano Dashboard is one of the largest ReactJS Open Source project on the web. <a href='https://github.com/syncano/syncano-dashboard'>Check it out on GitHub</a>, where you can contribute, or fork it and tailor it to make your own Syncano web dashboard.</p>
-          <p><GitHubButton type='stargazers' namespace='syncano' repo='syncano-dashboard' /></p>
-        </div>
-        <div className='Feature'>
-          <h4 className='Feature__title'>Join our Automation SDK Project</h4>
-          <p>Our Syncano-CLI is an open source (OSS) project, released under the MIT license. Our framework has been developed to integrate the Automation SDK with any IDE by building plugins for that particular IDE. <a onClick={() => startIntercom('I want to get involved in building Automation SDK! ;)')}>Join our Automation SDK project</a> to influence which IDEs we will prioritize!</p>
-        </div>
+        
+        
       </div>
     </div>
 
