@@ -64,7 +64,7 @@ BookMeetingForm.init = ({
         }
     })
 
-    window.analytics.track('Book Meeting')
+    
     toggleModal('book-meeting')
     toggleModal('booking-confirmed')
   }
