@@ -1,8 +1,7 @@
 import {action} from 'mobx'
 import _ from 'lodash'
 
-const STATUS_PAGE_URL = 'https://6l1kzwgr7t06.statuspage.io/api/v2/status.json'
-const STATUS_PAGE_TIMEOUT = 5000
+
 
 export default class UI {
   @action.bound toggleFlag (flag, value) {
@@ -17,10 +16,7 @@ export default class UI {
     this.store.modalData = data
     this.store.modal = this.store.modal === name ? null : name
 
-    window.analytics.page(`Website - ${_.upperFirst(name)}`, {
-      path: `#/${name}`,
-      title: `Website - ${_.upperFirst(name)}`
-    })
+
   }
 
   @action.bound async fetchServicesStatus () {
