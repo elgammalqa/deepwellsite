@@ -1,4 +1,4 @@
-import {connect} from 'zefir/utils'
+import React from 'react'
 import {action} from 'mobx'
 import FontAwesome from './styles/font-awesome'
 import Normalize from './styles/normalize'
