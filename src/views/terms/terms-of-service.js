@@ -1,6 +1,5 @@
 import Footer from '../../components/shared/footer'
 import Header from '../../components/shared/header'
-import CTA from '../../components/shared/cta'
 import Head from 'zefir/head'
 import Page from '../../components/ui/page'
 import Text from '../../components/ui/text'
@@ -270,7 +269,7 @@ const TermsOfService = () => (
       </Grid>
     </div>
 
-    <CTA />
+    
     <Footer />
 
     <style jsx>{`
