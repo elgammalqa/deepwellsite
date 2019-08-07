@@ -1,4 +1,4 @@
-import React from 'react'
+import {connect} from 'zefir/utils'
 import {action} from 'mobx'
 import FontAwesome from './styles/font-awesome'
 import Normalize from './styles/normalize'
@@ -145,4 +145,4 @@ Page.init = ({
   return {children, flags}
   }
 
-  export default Page
+  export default connect(Page)
