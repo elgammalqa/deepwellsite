@@ -205,4 +205,4 @@ Page.init = ({
   return {children, flags}
   }
 
-  export default connect(Page)
+  export default Page
