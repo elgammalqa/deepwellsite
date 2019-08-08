@@ -16,7 +16,9 @@ import SignInView from './views/signin'
 import MissingView from './views/missing'
 import EnterpriseView from './views/aboutus'
 
+
 const Routes = () => (
+
   <Switch>
     <Match path='/' exact component={LandingView} />
     <Match path='/services' exact component={FeaturesView} />
@@ -34,6 +36,7 @@ const Routes = () => (
     <Match path='/aboutus' exact component={EnterpriseView} />
     <Match component={MissingView} />
   </Switch>
+  
 )
 
 Routes.init = ({
@@ -43,5 +46,6 @@ Routes.init = ({
   ui.addSegment(process.env.ANALYTICS_WRITE_KEY)
   ui.fetchServicesStatus()
 }
+
 
 export default Routes

@@ -150,6 +150,7 @@ Features.init = ({
   setActiveSection,
   scrollToTop: () => window.scroll(0, 0),
   toggleSignUpModal: () => {
+    window.$crisp=[];window.CRISP_WEBSITE_ID="411061c7-c490-473f-81cf-035b623702c2";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
 
     toggleModal('signup')
   }

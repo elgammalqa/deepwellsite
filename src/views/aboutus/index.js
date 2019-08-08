@@ -95,6 +95,7 @@ const Enterprise = ({
 )
 
 Enterprise.init = ({
+  
   router
 }) => ({router})
 

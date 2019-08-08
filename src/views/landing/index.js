@@ -13,10 +13,11 @@ import Intune from './sections/features/intune.svg'
 const Landing = ({
   toggleSignUpModal
 }) => (
+
   <Page>
     <Head>
       <title>DeepWell - Cloud consultant</title>
-      <meta name="Description" content="As a leading strategic partner, we offer professional and individual coaching in the technological development of your business infrastructures."></meta>
+      <meta name="Description" content="As a leading Microsoft partner, we offer professional and individual coaching in the technological development of your business infrastructures."></meta>
     </Head>
     <Header theme='dark'>
       <div className='CTA'>
@@ -170,7 +171,7 @@ Landing.init = ({
   services: {ui: {toggleModal}}
 }) => ({
   toggleSignUpModal: e => {
-    toggleModal('signup')
+
   }
 })
 
