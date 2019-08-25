@@ -36,7 +36,6 @@ const Routes = () => (
     <Match path='/aboutus' exact component={EnterpriseView} />
     <Match component={MissingView} />
   </Switch>
-  
 )
 
 Routes.init = ({

@@ -36,8 +36,8 @@ Softlanding helps organizations be their best by providing technology solutions 
         <div className='Feature-list'>
           <div className='Feature'>
             <Link to={{
-              pathname: '/features',
-              hash: '#RegistriesSection'
+              pathname: '/services',
+              hash: '#CommunitySection'
             }}>
               <div className='Feature__inner'>
                 <div className='Feature__icon'>
@@ -52,8 +52,8 @@ Softlanding helps organizations be their best by providing technology solutions 
           </div>
           <div className='Feature'>
             <Link to={{
-              pathname: '/features',
-              hash: '#AutomationSDKSection'
+              pathname: '/services',
+              hash: '#CloudOsSection'
             }}>
               <div className='Feature__inner'>
                 <div className='Feature__icon'>
@@ -68,8 +68,8 @@ Softlanding helps organizations be their best by providing technology solutions 
           </div>
           <div className='Feature'>
             <Link to={{
-              pathname: '/features',
-              hash: '#CommunitySection'
+              pathname: '/services',
+              hash: '#AutomationSDKSection'
             }}>
               <div className='Feature__inner'>
                 <div className='Feature__icon'>
@@ -85,8 +85,8 @@ Softlanding helps organizations be their best by providing technology solutions 
           </div>
           <div className='Feature'>
             <Link to={{
-              pathname: '/features',
-              hash: '#CloudOsSection'
+              pathname: '/services',
+              hash: '#RegistriesSection'
             }}>
               <div className='Feature__inner'>
                 <div className='Feature__icon'>

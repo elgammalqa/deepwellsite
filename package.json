@@ -27,6 +27,7 @@
     "react-dom": "^15.5.4",
     "react-github-button": "0.1.11",
     "react-hexagon": "1.1.1",
+    "react-iframe": "^1.8.0",
     "react-marked-markdown": "^1.4.2",
     "react-rotating-text": "^1.2.0",
     "react-router": "~4.2.0",
