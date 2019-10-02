@@ -25,17 +25,7 @@ const Footer = () => (
       <Grid wrap>
         <div className='Navigation__column'>
           <h5 className='Navigation__head'>Company</h5>
-          <Nav stack>
-            <Link to='/terms-of-service'>
-              <span className='Navigation__link'>Terms of Service</span>
-            </Link>
-            <Link to='/privacy-policy'>
-              <span className='Navigation__link'>Privacy Policy</span>
-            </Link>
-            <Link to='/syncano-performance-insights'>
-              <span className='Navigation__link'>Privacy Shield</span>
-            </Link>
-          </Nav>
+          
         </div>
         <div className='Navigation__column'>
           <h5 className='Navigation__head'>Solutions</h5>
