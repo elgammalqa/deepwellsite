@@ -8,8 +8,8 @@ const SharePoint = ({toggleSignUpModal}) => (
         <div className='Section__column Section__column--primary'>
           <div className='Feature-list'>
             <div className='Feature Feature--important Feature--full'>
-              <h2 className='u-title'>Sharepoint</h2>
-              <p className='u-subtitle'>Microsoft Azure is an ever-expanding set of cloud services to help your organization meet your business challenges. It’s the freedom to build, manage, and deploy applications on a massive, global network using your favorite tools and frameworks.</p>
+              <h2 className='u-title'>What Do We Offer?</h2>
+              <p className='u-subtitle'>Being a Microsoft trusted partner, Viftech Solutions provides Office 365 migration consulting services to offer your enterprise with multifaceted cloud collaboration. Hosted by Microsoft, Office 365 is the best cloud-based productivity tool which provides an inclusive pool of enterprise level services along with advisory and technical support to your business about improving ROI, increasing user adoption and eliminating hidden costs.</p>
               
             </div>
             <div className='Feature Feature--important Feature--full'>
@@ -102,7 +102,7 @@ const SharePoint = ({toggleSignUpModal}) => (
           background-size: 100%;
           position: relative;
           height: 1218px;
-          background-image:url(/static/img/features/clouds.jpg);
+          background-image:url(/static/img/features/sharepoint-logo.jpg);
           position: absolute;
           top: 0;
           width: 100%;
