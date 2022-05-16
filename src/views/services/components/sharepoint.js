@@ -102,7 +102,7 @@ const SharePoint = ({toggleSignUpModal}) => (
           background-size: 100%;
           position: relative;
           height: 1218px;
-          background-image:url(/static/img/features/sharepoint-logo.jpg);
+          background-image:url(/);
           position: absolute;
           top: 0;
           width: 100%;
