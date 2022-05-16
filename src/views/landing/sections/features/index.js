@@ -69,6 +69,22 @@ Softlanding helps organizations be their best by providing technology solutions 
           <div className='Feature'>
             <Link to={{
               pathname: '/services',
+              hash: '#SharePoint'
+            }}>
+              <div className='Feature__inner'>
+                <div className='Feature__icon'>
+                  <AutomationSDKIcon />
+                </div>
+                <h4 className='Feature__title'>SharePoint Services</h4>
+                <p>
+                Our business analysts, cloud architects and delivery consultants will ensure that your migration experience is smooth and that staff experience minimal or no disruption. We offer the following types of migration services:
+                </p>
+              </div>
+            </Link>
+          </div>
+          <div className='Feature'>
+            <Link to={{
+              pathname: '/services',
               hash: '#AutomationSDKSection'
             }}>
               <div className='Feature__inner'>

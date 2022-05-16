@@ -14,7 +14,7 @@ import ContentNav from './components/content-nav'
 import CommunitySection from './components/community-section'
 import AutomationSDKSection from './components/automation-sdk-section'
 import CloudOsSection from './components/cloud-os-section'
-import CloudOsSection from './components/sharepoint'
+import SharePoint from './components/sharepoint'
 import RegistriesSection from './components/registries-section'
 
 class Features extends Component {
@@ -63,6 +63,9 @@ class Features extends Component {
 
           <div id='CloudOsSection'>
             <CloudOsSection toggleSignUpModal={toggleSignUpModal} />
+          </div>
+          <div id='SharePoint'>
+            <SharePoint toggleSignUpModal={toggleSignUpModal} />
           </div>
 
           <div id='CommunitySection'>

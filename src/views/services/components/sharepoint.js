@@ -1,6 +1,6 @@
 import Grid from '../../../components/ui/grid'
 
-const CloudOsSection = ({toggleSignUpModal}) => (
+const SharePoint = ({toggleSignUpModal}) => (
   <div className='Section'>
     <div className='Section__clouds' />
     <div className='Section__inner u-wrapper'>
@@ -311,4 +311,4 @@ const CloudOsSection = ({toggleSignUpModal}) => (
   </div>
 )
 
-export default CloudOsSection
+export default SharePoint
