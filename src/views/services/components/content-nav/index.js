@@ -24,6 +24,11 @@ const ContentNav = () => (
       sectionId='CommunitySection'
       section={3}
     />
+        <ContentNavItem
+      text='Sharepoint On-Premise'
+      sectionId='CommunitySection'
+      section={3}
+    />
 
 
     <style jsx>{`
