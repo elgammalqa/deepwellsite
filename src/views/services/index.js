@@ -14,6 +14,7 @@ import ContentNav from './components/content-nav'
 import CommunitySection from './components/community-section'
 import AutomationSDKSection from './components/automation-sdk-section'
 import CloudOsSection from './components/cloud-os-section'
+import CloudOsSection from './components/sharepoint'
 import RegistriesSection from './components/registries-section'
 
 class Features extends Component {
