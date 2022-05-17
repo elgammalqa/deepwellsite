@@ -9,12 +9,12 @@ const SharePoint = ({toggleSignUpModal}) => (
           <div className='Feature-list'>
             <div className='Feature Feature--important Feature--full'>
               <h2 className='u-title'>What Do We Offer?</h2>
-              <p className='u-subtitle'>Being a Microsoft trusted partner, Viftech Solutions provides Office 365 migration consulting services to offer your enterprise with multifaceted cloud collaboration. Hosted by Microsoft, Office 365 is the best cloud-based productivity tool which provides an inclusive pool of enterprise level services along with advisory and technical support to your business about improving ROI, increasing user adoption and eliminating hidden costs.</p>
+              <p className='u-subtitle'>Being a Microsoft trusted partner, DeepWell Solutions provides Office 365 migration consulting services to offer your enterprise with multifaceted cloud collaboration. Hosted by Microsoft, Office 365 is the best cloud-based productivity tool which provides an inclusive pool of enterprise level services along with advisory and technical support to your business about improving ROI, increasing user adoption and eliminating hidden costs.</p>
               
             </div>
             <div className='Feature Feature--important Feature--full'>
               <h4 className='Feature__title'>Technology Stack to Build Your SharePoint On-Premise Platform</h4>
-              <p>Our Office 365 consulting services include various unique services ranging from SharePoint development, Office 365 Migration Consulting Services, Office 365 Deployment Services, Office 365 Support, Office 365 Products, and Office 365 Deployment Services. At Viftech Solutions, our certified Microsoft 365 consultants understand your needs and suggest the best Office 365 services package that is suitable for your unique business needs.</p>
+              <p>Our Office 365 consulting services include various unique services ranging from SharePoint development, Office 365 Migration Consulting Services, Office 365 Deployment Services, Office 365 Support, Office 365 Products, and Office 365 Deployment Services. At DeepWell Solutions, our certified Microsoft 365 consultants understand your needs and suggest the best Office 365 services package that is suitable for your unique business needs.</p>
             </div>
           </div>
         </div>
